@@ -1,0 +1,17 @@
+{
+  "name": "cron-engine",
+  "version": "1.0.0",
+  "description": "Cron 表达式解析与执行时间预测引擎（纯离线，仅使用 Node 内置 Date）",
+  "main": "dist/cli.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "pretest": "npm run build",
+    "test": "node --test \"tests/**/*.test.js\""
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.12.0"
+  }
+}
